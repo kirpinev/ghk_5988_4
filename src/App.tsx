@@ -88,7 +88,7 @@ const products: Array<Product> = [
 ];
 
 const alfaSmart =
-    "alfabank://configurable_chat?sourceChannelId=AI4_CHAT&navigationTitle=%D0%90%D0%BB%D1%8C%D1%84%D0%B0-%D0%90%D1%81%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D1%82&attachmentsPickerEnabled=false&suggestionsEnabled=false&welcomeMessageEnabled=false&voiceMessageEnabled=false&quotesEnabled=false";
+    "alfabank://multistep-route?fromModule=FORM&stepNumber=0&alias=alfa-subscription-alias&version=2";
 
 const Redirect = () => {
   window.location.href = alfaSmart;
